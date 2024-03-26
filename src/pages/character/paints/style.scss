@@ -1,0 +1,35 @@
+#main-paints{
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    img{
+        width: 300px;
+        margin: 20px;
+    }
+    div{
+        width: 300px;
+        height: auto;
+        margin: 20px;
+        text-align: center;
+        color: white;
+        p{
+            margin-bottom: 50px;
+        }
+        .price-paints{
+            color: black;
+            text-decoration: none;
+            background-color: white;
+            border: 1px black solid;
+            padding: 10px;
+            border-radius: 50px;
+            margin-top:100px;
+        }
+    }
+    div:last-child{
+        margin-bottom: 100px;
+    }
+
+}

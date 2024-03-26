@@ -1,0 +1,84 @@
+#main-resume {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#main-resume * {
+  color: rgba(255, 255, 255, 0.39);
+  text-align: center;
+  font-size: 3vh;
+}
+#main-resume h3 {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#main-resume h3:hover {
+  color: purple;
+}
+#main-resume #info-about-projects {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#main-resume #info-about-projects .each-code-idid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+#main-resume #info-about-projects .each-code-idid img {
+  width: 100%;
+}
+#main-resume #info-about-projects .each-code-idid h1 {
+  margin: 20px 0;
+}
+
+.normal-line {
+  width: 100vw;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.116);
+}
+
+@keyframes openCodeSide {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 500vh;
+  }
+}
+@keyframes closeCodeSide {
+  from {
+    max-height: 200vh;
+  }
+  to {
+    max-height: 0;
+  }
+}
+.checkbox-foreach {
+  width: 0;
+  height: 0;
+}
+
+.clicker {
+  width: 100vw;
+  text-align: center;
+  border-bottom: 1px rgba(255, 255, 255, 0.062) solid;
+  padding: 25px 0;
+}
+
+#click-here-github {
+  margin: 100px 0 50px 0;
+  font-size: 2vh;
+}
+#click-here-github a {
+  font-size: 2vh;
+  color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
