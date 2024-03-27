@@ -8,6 +8,8 @@ import Coding from './pages/character/coding/coding';
 import Paints from './pages/character/paints/paints';
 import Writing from './pages/character/writing/writing';
 import Resume from './pages/resume/resume';
+import Privacy from './pages/extra/privacy';
+import About from './pages/extra/about';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
       <Route path='/contact' element={<Contact />} /> 
       <Route path='/contact/email' element={<EmailForm />} />
       <Route path='/Resume' element={<Resume />} />
+      <Route path='/Privacy' element={<Privacy />} />
+      <Route path='/About_this_website' element={<About />} />
     </Routes>
 </BrowserRouter>
 

@@ -49,7 +49,7 @@ const Resume = () => {
                     </div>
 
                     <label className="this-checkbox">
-                        <img src={logoFilm2Movie} alt="film2movie" Style='width:25vw;' />
+                        <img src={logoFilm2Movie} alt="film2movie" Style='width:25vw;cursor:pointer;' />
                         <h1>Film 2 Movie</h1>
                         <input type="checkbox" defaultChecked={true} className="checkbox-foreach"/>
 
