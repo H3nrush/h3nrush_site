@@ -41,13 +41,6 @@ const Resume = () => {
             <Header />
             <main id="main-resume">
                 <section id="info-about-projects">
-                    <div>
-                        <h1>
-                            this is all what i did
-                        </h1>
-                        <br /><br /><br />
-                    </div>
-
                     <label className="this-checkbox">
                         <img src={logoFilm2Movie} alt="film2movie" Style='width:25vw;cursor:pointer;' />
                         <h1>Film 2 Movie</h1>
