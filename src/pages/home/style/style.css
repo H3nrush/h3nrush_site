@@ -110,8 +110,8 @@ header .navbar div ul li:hover span, header .navbar div ul .header-links:hover s
   height: 200px;
   transition: all 0.2s ease;
   animation: myphoto-shadow 5s infinite ease-in-out;
-  z-index: 111111;
   position: relative;
+  z-index: 3333;
 }
 @keyframes myphoto-shadow {
   0% {

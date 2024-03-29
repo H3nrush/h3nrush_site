@@ -103,8 +103,8 @@
           height: 200px;
           transition: all .2s ease;
           animation: myphoto-shadow 5s infinite ease-in-out;
-          z-index: 111111;
           position: relative;
+          z-index: 3333;
   
         }
         @keyframes myphoto-shadow {
