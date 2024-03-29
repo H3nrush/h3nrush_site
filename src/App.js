@@ -17,10 +17,10 @@ function App() {
 <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/character' element={<Character />} />
-      <Route path='/character/coding' element={<Coding />} />
-      <Route path='/character/paints' element={<Paints />} />
-      <Route path='/character/writes' element={<Writing />} />
+      <Route path='' element={<Character />} />
+      <Route path='/coding' element={<Coding />} />
+      <Route path='/paints' element={<Paints />} />
+      <Route path='/writes' element={<Writing />} />
       <Route path='/contact' element={<Contact />} /> 
       <Route path='/Resume' element={<Resume />} />
       <Route path='/Privacy' element={<Privacy />} />
