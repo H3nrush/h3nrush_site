@@ -1,7 +1,7 @@
-import Footer from "../../../components/footer";
-import Header from "../../../components/header";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
 import './style.css';
-import backgroundMusic from '../../../files/musics/Background-Music.mp3';
+import backgroundMusic from '../../files/musics/Background-Music.mp3';
 
 
 const Writing = ()=>{

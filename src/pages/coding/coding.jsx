@@ -1,6 +1,6 @@
-import Footer from "../../../components/footer";
-import Header from "../../../components/header";
-import cmdCode from '../../../files/codes/cmd.bat';
+import Footer from "../../components/footer";
+import Header from "../../components/header";
+import cmdCode from '../../files/codes/cmd.bat';
 import './style.css';
 
 const Coding = ()=>{
