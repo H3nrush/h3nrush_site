@@ -1,0 +1,73 @@
+#main-for-contact {
+  height: auto;
+  width: 100vw;
+}
+
+#this-container-contact {
+  height: 100%;
+  width: 100%;
+}
+#this-container-contact div .text-address {
+  width: 100vw;
+  text-align: center;
+}
+#this-container-contact div .text-address * {
+  color: white;
+  margin: 20px;
+}
+#this-container-contact .by-phonenumber {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#this-container-contact .by-phonenumber div {
+  margin: 30px;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#this-container-contact .by-phonenumber img {
+  height: 100px;
+  margin: 20px 30px;
+}
+#this-container-contact .by-phonenumber strong {
+  color: white;
+  margin: 20px 60px;
+}
+
+#contact-address {
+  width: 100vw;
+  height: 300px;
+  border: 0;
+}
+
+#send-me-email {
+  width: 100vw;
+  height: auto;
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+#send-me-email h3 {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  color: white;
+}
+#send-me-email #strong {
+  -webkit-user-select: all;
+     -moz-user-select: all;
+          user-select: all;
+  color: purple;
+  text-decoration: underline;
+  font-size: small;
+}/*# sourceMappingURL=style.css.map */

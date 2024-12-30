@@ -1,0 +1,96 @@
+#this-main-character{
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .div-animations{
+
+        user-select: none;
+
+    }
+    .showen{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: linear-gradient(to right, rgb(0, 153, 255), rgb(255, 0, 255));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        text-align: center; 
+        animation: forEachText 1s ease-out;
+        padding: 40px;
+    }
+}
+
+@keyframes forEachText {
+    from{
+        opacity: 0;
+    }
+    to{ 
+        opacity: 1;
+    }
+}
+
+.div-last-display{
+    width: 100vw;
+    height: auto;
+    #this-infos-tal{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .each-talent{
+            height: 300px;
+            width: 300px;
+            margin: 5px;
+            opacity: 0.5;
+            transition: all .5s ease-out;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .each-btn-inside{
+                padding: 15px;
+                color: white;
+                text-decoration: none; 
+                background-color: black;
+                border: 1px white solid;
+                border-radius: 50px;
+                display: none;
+                transition: all 2s ease-out;
+            }
+        } 
+        .each-talent:hover{
+            opacity: 1;
+            .each-btn-inside{
+                display: block;
+            }
+        }
+        .div-paint{
+            background-image: url('../../files/character/360_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .div-writing{
+            background-image: url('../../files/character/8df34da6193f507a9d566b5a46567b9b.jpg');
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+        }
+        .div-coding{
+            background-image: url('../../files/character/coding_languages.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .div-blieves{
+            background-image: url('../../files/character/depositphotos_7429076-stock-photo-silhouette-of-boy-on-sea.jpg');
+            background-size: cover;
+            background-position: right;
+            background-repeat: no-repeat;
+        }
+    }
+
+}

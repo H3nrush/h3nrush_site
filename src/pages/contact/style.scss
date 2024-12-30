@@ -1,0 +1,70 @@
+#main-for-contact{
+    height: auto;
+    width: 100vw;
+}
+#this-container-contact{
+    height: 100%;
+    width: 100%;
+    div{
+        .text-address{
+            width: 100vw;
+            text-align: center;
+            *{
+                color: white;
+                margin: 20px;
+            }
+        }
+    }
+    .by-phonenumber{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        div{
+            margin: 30px;
+            height: auto;
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+        }
+        img{
+            height: 100px;
+            margin:20px 30px;
+        }
+        strong{
+            color: white;
+            margin:20px 60px;
+        }
+    }
+}
+#contact-address{
+    width: 100vw;
+    height: 300px;
+    border: 0;
+}
+#send-me-email{
+    width: 100vw;
+    height: auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h3{
+        user-select: none;
+        color: white;
+
+    }
+    #strong{
+        user-select: all;
+        color: purple;
+        text-decoration: underline;
+        font-size: small;
+    }
+    margin-bottom: 50px;
+}

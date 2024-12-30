@@ -1,0 +1,40 @@
+#main-privacy{
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .privacy-div{
+        width: 90vw;
+        height: 70vh;
+        padding: 50px;
+        background-color: rgba(255, 255, 255, 0.092);
+        text-align: start;
+        color: white;
+        font-size: 3vh;
+        z-index: 1;
+        overflow: scroll;
+    }
+    .logo-ofwebsite{
+        width: 100vw;
+        height: 80vh;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+        opacity: 0.5;
+        animation: logoresize 5s ease infinite;
+    }
+    @keyframes logoresize {
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(0.5);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+}

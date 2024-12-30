@@ -1,0 +1,33 @@
+#main-coding{
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .codes{
+        width: 50vw;
+        text-align: center;
+        *{
+            margin: 40px 10px;
+        }
+        h1{
+            color: red;
+        }
+        p{
+            color: white;
+        }
+        a{
+            color: black;
+            background-color: white;
+            padding: 10px;
+            text-decoration: none;
+            border: 1px black solid;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: all .5s ease;
+        }
+        a:hover{
+            background-color: red;
+        }
+    }
+}
