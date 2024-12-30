@@ -60,7 +60,11 @@ function Home(){
                             </div>
                         </div>
                         <div className="btns">
+<<<<<<< HEAD
                             <a href="https://drive.google.com/file/d/1RevyhEjNlwBIWbhgDWfAHEqd0uR3bvDm/view?usp=drivesdk" download>
+=======
+                            <a href="https://drive.google.com/file/d/1FCaqq4OKBfMXG3aXMRermrKbIe-TTVLL/view?usp=sharing" download>
+>>>>>>> e752e7d28908969b1a7ed50024b6c914d3a2ef6d
                             Download CV
                             </a> 
                             <Link to="/contact">

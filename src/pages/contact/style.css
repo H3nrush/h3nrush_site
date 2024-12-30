@@ -55,19 +55,34 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+<<<<<<< HEAD
   margin-bottom: 50px;
+=======
+>>>>>>> e752e7d28908969b1a7ed50024b6c914d3a2ef6d
 }
 #send-me-email h3 {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
   color: white;
+<<<<<<< HEAD
 }
 #send-me-email #strong {
+=======
+  padding: 40px 0;
+}
+#send-me-email h3 strong {
+>>>>>>> e752e7d28908969b1a7ed50024b6c914d3a2ef6d
   -webkit-user-select: all;
      -moz-user-select: all;
           user-select: all;
   color: purple;
   text-decoration: underline;
   font-size: small;
+<<<<<<< HEAD
+=======
+}
+#send-me-email .this-form-email {
+  margin-bottom: 100px;
+>>>>>>> e752e7d28908969b1a7ed50024b6c914d3a2ef6d
 }/*# sourceMappingURL=style.css.map */

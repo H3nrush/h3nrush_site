@@ -1,0 +1,61 @@
+#mail-form{
+    width: 200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    *{
+        margin: 10px 0;
+    }
+    div{
+        width: 100%;
+        label{
+            color: rgba(255, 255, 255, 0.582);
+        }
+    }
+    .input-send-mail{
+        width: 100%;
+        outline: unset;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: 1px purple solid;
+
+    }
+    .textarea-send-mail{
+        width: 100%;
+        height: 200px;
+        outline: unset;
+        padding: 30px 20px;
+        border-radius: 20px;
+        border: 1px purple solid;
+    }
+    .textarea-send-mail::placeholder{
+        color: purple;
+        font-size: smaller;
+
+    }
+    .input-send-mail,.textarea-send-mail{
+        background-color: rgba(245, 245, 245, 0.329);
+        transition: all 0.5s ease-out;
+    }
+    .input-send-mail:focus,.textarea-send-mail:focus{
+        background-color: rgba(255, 255, 255, 0.459);
+        border: 1px purple solid;
+    }
+    .mail-submit{
+        background-color:unset;
+        color: purple;
+        padding: 10px;
+        border: 1px purple solid;
+        border-radius: 50px;
+        cursor: pointer;
+        margin: 30px 0;
+        transition: all .5s ease;
+    }
+    .mail-submit:hover{
+        background-color: rgba(255, 255, 255, 0.411);
+        color: black;
+        border: 1px black solid;
+    }
+}

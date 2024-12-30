@@ -67,7 +67,11 @@ const displayOff = ()=>{
             <ul>
               <li id="display-about" onDoubleClick={displayOff}>About Me <span>&#9660;</span>
                 <div id="about-me-btn">
+<<<<<<< HEAD
                   <a href="https://drive.google.com/file/d/1RevyhEjNlwBIWbhgDWfAHEqd0uR3bvDm/view?usp=drivesdk"  className="a-btn">
+=======
+                  <a href="https://drive.google.com/file/d/1FCaqq4OKBfMXG3aXMRermrKbIe-TTVLL/view?usp=sharing"  className="a-btn">
+>>>>>>> e752e7d28908969b1a7ed50024b6c914d3a2ef6d
                     <div>
                       My CV
                     </div>

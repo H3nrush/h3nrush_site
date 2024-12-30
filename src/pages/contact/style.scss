@@ -58,6 +58,7 @@
     h3{
         user-select: none;
         color: white;
+<<<<<<< HEAD
 
     }
     #strong{
@@ -67,4 +68,17 @@
         font-size: small;
     }
     margin-bottom: 50px;
+=======
+        strong{
+            user-select: all;
+            color: purple;
+            text-decoration: underline;
+            font-size: small;
+        }
+        padding: 40px 0;
+    }
+    .this-form-email{
+        margin-bottom: 100px;
+    }
+>>>>>>> e752e7d28908969b1a7ed50024b6c914d3a2ef6d
 }
