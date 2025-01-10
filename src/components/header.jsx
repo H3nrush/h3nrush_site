@@ -65,7 +65,7 @@ const displayOff = ()=>{
         <section id="menu-btn" onDoubleClick={setDisplayOff}>
           <div id="menu">
             <ul>
-              <li id="display-about" onDoubleClick={displayOff}>About Me <span>&#9660;</span>
+              <li id="display-about" onMouseLeave={displayOff}>About Me <span>&#9660;</span>
                 <div id="about-me-btn">
 
                   <a href="https://drive.google.com/file/d/1ZLsXHxVpR1isn0Vx9NnG92oY5GJT3xAG/view?usp=drive_link"  className="a-btn">
